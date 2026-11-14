@@ -1,0 +1,18 @@
+{
+  "author": "Shujaat Khan et al.",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "pandas": "2.2.3",
+  "unit_tests_passed": 8,
+  "fresh_full_setting_cases": 6,
+  "fresh_exact_records": 32,
+  "fresh_finite_shot_records": 192,
+  "prediction_and_metric_match": true,
+  "archived_clean_records": 240,
+  "archived_occlusion_records": 80,
+  "archived_finite_shot_records": 1920,
+  "all_main_table_means_and_sds_match": true,
+  "full_ten_seed_training_rerun": false
+}
