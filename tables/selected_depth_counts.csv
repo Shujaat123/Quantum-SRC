@@ -1,0 +1,12 @@
+dataset,depth,count
+digits,1,5
+digits,2,1
+digits,3,4
+faces,1,6
+faces,2,4
+grid,1,9
+grid,2,1
+iris,1,10
+subspaces,1,10
+wine,1,8
+wine,2,2

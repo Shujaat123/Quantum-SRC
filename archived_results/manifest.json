@@ -1,0 +1,140 @@
+{
+  "kind": "archived-experimental-results",
+  "author": "Shujaat Khan et al.",
+  "config": {
+    "datasets": [
+      "iris",
+      "wine",
+      "digits",
+      "subspaces",
+      "faces",
+      "grid"
+    ],
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "small": {
+      "qubits": 6,
+      "depths": [
+        1,
+        2,
+        3
+      ],
+      "bandwidths": [
+        0.25,
+        0.5,
+        1.0
+      ],
+      "dictionary_per_class": 10,
+      "val_per_class": 8,
+      "test_per_class": 12,
+      "lambdas": [
+        0.001,
+        0.01,
+        0.05
+      ],
+      "mus": [
+        0.1,
+        0.5
+      ],
+      "followup_queries": 6,
+      "followup_repeats": 2,
+      "shared_gram_shots": [
+        256,
+        4096,
+        65536
+      ],
+      "query_shots": [
+        32,
+        128,
+        512,
+        2048
+      ],
+      "followup_Cs": [
+        0.01,
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ],
+      "followup_mus": [
+        0.1,
+        0.5,
+        1.0
+      ]
+    },
+    "extra": {
+      "subjects": 40,
+      "qubits": 6,
+      "dimensions": [
+        8,
+        16,
+        32
+      ],
+      "depths": [
+        1,
+        2
+      ],
+      "bandwidths": [
+        0.5,
+        1.0
+      ],
+      "lambdas": [
+        0.001,
+        0.01,
+        0.05
+      ],
+      "mus": [
+        0.1,
+        0.5,
+        1.0
+      ],
+      "Cs": [
+        0.1,
+        1.0,
+        10.0,
+        100.0
+      ],
+      "occlusions": [
+        0.0,
+        0.1,
+        0.25
+      ],
+      "tabular_dictionary": 50,
+      "validation_cap": 200,
+      "test_cap": 500
+    }
+  },
+  "reference_versions": {
+    "python": "3.12.12",
+    "numpy": "1.26.4",
+    "scipy": "1.17.1",
+    "sklearn": "1.9.1"
+  },
+  "source_archives": [
+    {
+      "filename": "paper_results.zip",
+      "sha256": "8384e5d5d38ace4b982425c9962fe20347261f363c875ca9163fb9e0a05fd2e5"
+    },
+    {
+      "filename": "all_three_results.zip",
+      "sha256": "9120f25e32217285e0a54e57eb26508f887e753f5af85d9af8f45b96433785ad"
+    },
+    {
+      "filename": "original_linear_src_results.zip",
+      "sha256": "61a91c880b85934e51a1b058cb0fb497cf60c3110ef7ce6ba6286f49811565ba"
+    }
+  ],
+  "expected_clean_records": 240,
+  "expected_occlusion_records": 80,
+  "expected_finite_shot_records": 1920
+}

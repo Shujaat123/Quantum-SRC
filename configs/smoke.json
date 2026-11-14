@@ -1,0 +1,71 @@
+{
+  "datasets": [
+    "iris",
+    "subspaces"
+  ],
+  "seeds": [
+    0
+  ],
+  "small": {
+    "qubits": 6,
+    "depths": [
+      1
+    ],
+    "bandwidths": [
+      0.5
+    ],
+    "dictionary_per_class": 10,
+    "val_per_class": 8,
+    "test_per_class": 12,
+    "lambdas": [
+      0.01
+    ],
+    "mus": [
+      0.1
+    ],
+    "followup_queries": 6,
+    "followup_repeats": 1,
+    "shared_gram_shots": [
+      256
+    ],
+    "query_shots": [
+      32
+    ],
+    "followup_Cs": [
+      1.0
+    ],
+    "followup_mus": [
+      0.1
+    ]
+  },
+  "extra": {
+    "subjects": 8,
+    "qubits": 6,
+    "dimensions": [
+      8
+    ],
+    "depths": [
+      1
+    ],
+    "bandwidths": [
+      0.5
+    ],
+    "lambdas": [
+      0.01
+    ],
+    "mus": [
+      0.1
+    ],
+    "Cs": [
+      1.0
+    ],
+    "occlusions": [
+      0.0,
+      0.1,
+      0.25
+    ],
+    "tabular_dictionary": 8,
+    "validation_cap": 8,
+    "test_cap": 8
+  }
+}
